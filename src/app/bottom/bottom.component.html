@@ -1,0 +1,18 @@
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Catamaran|Cormorant+Garamond" rel="stylesheet">
+</head>
+
+<footer id="wrap">
+
+  <div class="contact form"  data-aos="slide-up">
+    <form id="contact-form" action="https://formspree.io/your@email.com" method="POST">
+      <input maxlength="50" name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+      <input name="email" maxlength="50" type="email" class="form-control" placeholder="Your Email" required><br>
+      <textarea maxlength="1000" name="message" class="form-control" placeholder="Your Message" rows="5" required></textarea> <br>
+      <input type="submit" (click)="submit()" class="form-control submit" value="Send">
+    </form>
+  </div>
+  <div class="clearfix"></div>
+</footer>
+</html>

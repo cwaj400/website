@@ -1,0 +1,15 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+/* You can add global styles to this file, and also import other style files */
+
+
+* {
+  text-decoration: none;
+  overflow-x: hidden;
+  overflow-scrolling: auto;
+  scroll-behavior: smooth;
+}
+
+
+p, h3, h4, h2, h1:hover {
+  cursor: default;
+}

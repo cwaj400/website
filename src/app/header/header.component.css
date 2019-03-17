@@ -1,0 +1,244 @@
+@media only screen and (min-width: 1000px) {
+  header {
+    float: left;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: block;
+  }
+
+  header .header-brand {
+    float: left;
+  }
+
+  /*list **** IF YOU CAN'T CENTRE THINGS, ADD A DISPLAY BLOCK*/
+  header nav ul {
+    /*float: right;*/
+    /*margin-right: 20px;*/
+    /*list-style: none;*/
+    /*display: block;*/
+  }
+
+  /*link in list*/
+  header nav ul li a {
+    line-height: 60px;
+    font-size: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    /*text-align: center;*/
+    float: left;
+    list-style: none;
+    /*display: block;*/
+  }
+
+}
+
+.back {
+  float: right;
+}
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  letter-spacing: 2px;
+}
+
+header .header-brand:hover {
+  color: burlywood;
+}
+
+#oar-text-element {
+  /*border: 1px solid #ccc;*/
+  display: none;
+  font-size: 10px;
+  /*margin-top: 10px;*/
+  /*padding: 5px;*/
+  text-transform: uppercase;
+}
+
+#oars:hover #oar-text-element {
+  display: inline-block;
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(42px);
+  transform: translateX(65px);
+  transition: 1s;
+
+  transition: ease-in-out;
+  font-style: italic;
+}
+
+#oars {
+  cursor: none;
+  padding: 20px;
+  float: left;
+}
+
+header .header-brand {
+  text-decoration: none;
+  font-family: "Big Caslon";
+  font-size: 28px;
+  font-weight: 200;
+  color: #122;
+  text-transform: uppercase;
+
+  /*center text*/
+  display: block;
+  margin: 0 20px;
+  /*text-align: center;*/
+
+  /*20 top and bottom, 0 left and right*/
+  padding: 20px 60px;
+}
+
+/*list **** IF YOU CAN'T CENTRE THINGS, ADD A DISPLAY BLOCK*/
+header nav ul {
+  margin: 0;
+  width: 100%;
+  display: block;
+  transition: 1s;
+}
+
+/*list items*/
+header nav ul li {
+  /*display: inline-block;*/
+  float: left;
+  list-style: none;
+  padding: 0 40px 0 80px;
+}
+
+/*link in list*/
+header nav ul li a {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  color: #124;
+}
+
+/*animated line*/
+header nav ul li a:hover {
+  color: burlywood;
+}
+
+header nav ul li a::after {
+  vertical-align: top;
+  display: block;
+  margin: 0 auto;
+  content: '';
+
+  width: 0;
+  height: 2px;
+
+  transition: width 3s;
+
+  background-color: burlywood;
+}
+
+header nav ul li a:hover::after {
+  vertical-align: top;
+  width: 100%;
+  transition: width .3s;
+
+}
+
+/**
+SWITCH
+ */
+
+/*.switch:hover {*/
+/*background-color: gray;*/
+/*transition: 2s;*/
+/*}*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 34px;
+}
+
+.switch input {
+  display: none;
+  padding-top: 100px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  float: left;
+  right: 0;
+  bottom: 0;
+  background-color: #ca2222;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 100px;
+}
+
+.slider:before {
+  /**
+  COMMENT TO ELIMINATE DOT
+   */
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+.switch-wrap {
+  padding-top: 25px;
+}
+
+input:checked + .slider {
+  background-color: #2ab934;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(42px);
+  transform: translateX(65px);
+}
+
+/*------ ADDED CSS ---------*/
+.slider:after {
+  text-align: center;
+  content: 'off';
+  color: white;
+  display: block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+input:checked + .slider:after {
+  content: 'on';
+}
+
+/*--------- END --------*/
