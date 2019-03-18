@@ -679,7 +679,7 @@ var OptionsComponent = /** @class */ (function () {
     OptionsComponent.prototype.ngOnInit = function () {
     };
     OptionsComponent.prototype.downloadPDF = function () {
-        window.open('/assets/cv.pdf', '_blank', 'fullscreen=yes');
+        window.open('cv.pdf', '_blank', 'fullscreen=yes');
         return false;
     };
     OptionsComponent = __decorate([

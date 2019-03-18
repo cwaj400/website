@@ -15,7 +15,7 @@ export class OptionsComponent implements OnInit {
   }
 
   downloadPDF() {
-    window.open('./cv.pdf', '_blank', 'fullscreen=yes');
+    window.open('cv.pdf', '_blank', 'fullscreen=yes');
     return false;
   }
 
