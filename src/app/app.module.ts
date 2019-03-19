@@ -16,6 +16,7 @@ import {ProjectsComponent} from './projects/projects.component';
 import {HomeComponent} from './home/home.component';
 import { SocialButtonsComponent } from './social-buttons/social-buttons.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ConstructionComponent } from './construction/construction.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     InfoComponent,
     HomeComponent,
     SocialButtonsComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ConstructionComponent
   ],
   imports: [
     BrowserModule,

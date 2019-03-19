@@ -47,13 +47,6 @@ TODO: e3b46757de0e4d3282af3ba9042d1459
   overflow: hidden;
 }
 
-.index-banner:hover {
-  -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(50%);
-  /*filter:blur(10px);*/
-  transition: 2s;
-}
-
 .vertical-center {
   margin: 0;
   display: table-cell;

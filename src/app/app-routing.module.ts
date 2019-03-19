@@ -5,9 +5,10 @@ import {HomeComponent} from './home/home.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import {InfoComponent} from './info/info.component';
 import {BottomComponent} from './bottom/bottom.component';
+import {ConstructionComponent} from './construction/construction.component';
 
 const routes: Routes = [
-  {path: 'portfolio', component: ProjectsComponent, data: {title: 'Projects'}},
+  {path: 'portfolio', component: ConstructionComponent, data: {title: 'Projects'}},
   {path: 'home', component: HomeComponent, data: {title: 'Home'}},
   {path: '', component: HomeComponent, pathMatch: 'full'},
   {path: '**', component: PageNotFoundComponent}

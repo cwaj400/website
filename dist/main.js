@@ -39,6 +39,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _projects_projects_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./projects/projects.component */ "./src/app/projects/projects.component.ts");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./page-not-found/page-not-found.component */ "./src/app/page-not-found/page-not-found.component.ts");
+/* harmony import */ var _construction_construction_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./construction/construction.component */ "./src/app/construction/construction.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -50,8 +51,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
 var routes = [
-    { path: 'portfolio', component: _projects_projects_component__WEBPACK_IMPORTED_MODULE_2__["ProjectsComponent"], data: { title: 'Projects' } },
+    { path: 'portfolio', component: _construction_construction_component__WEBPACK_IMPORTED_MODULE_5__["ConstructionComponent"], data: { title: 'Projects' } },
     { path: 'home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"], data: { title: 'Home' } },
     { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"], pathMatch: 'full' },
     { path: '**', component: _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_4__["PageNotFoundComponent"] }
@@ -157,12 +159,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var _social_buttons_social_buttons_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./social-buttons/social-buttons.component */ "./src/app/social-buttons/social-buttons.component.ts");
 /* harmony import */ var _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./page-not-found/page-not-found.component */ "./src/app/page-not-found/page-not-found.component.ts");
+/* harmony import */ var _construction_construction_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./construction/construction.component */ "./src/app/construction/construction.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -197,7 +201,8 @@ var AppModule = /** @class */ (function () {
                 _info_info_component__WEBPACK_IMPORTED_MODULE_5__["InfoComponent"],
                 _home_home_component__WEBPACK_IMPORTED_MODULE_14__["HomeComponent"],
                 _social_buttons_social_buttons_component__WEBPACK_IMPORTED_MODULE_15__["SocialButtonsComponent"],
-                _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_16__["PageNotFoundComponent"]
+                _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_16__["PageNotFoundComponent"],
+                _construction_construction_component__WEBPACK_IMPORTED_MODULE_17__["ConstructionComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -225,7 +230,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "@media only screen and (min-width: 1000px) {\n\n  .index-banner {\n    height: 450px;\n  }\n\n\n  .index-banner h1 {\n    display: block;\n    width: 560px;\n    margin: 0 auto;\n\n  }\n\n  .index-links div {\n    margin: 0 auto;\n    padding: 0;\n    height: 250px;\n    background-color: #f2f2f2;\n  }\n\n  .index-boxlink-square {\n    width: calc(25% - 60px) !important;\n    margin: 0 auto;\n    padding: 0;\n  }\n}\n\n/**\nTODO: e3b46757de0e4d3282af3ba9042d1459\n */\n\n/*INDEX*/\n\n.index-banner {\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  height: calc(100vh - 100px);\n  background-image: url(\"https://picsum.photos/1200/1200/?random\");\n  background-repeat: no-repeat;\n  background-position: center;\n  background-attachment: fixed;\n  background-size: cover;\n  display: table;\n  overflow: hidden;\n}\n\n.index-banner:hover {\n  -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */\n  filter: grayscale(50%);\n  /*filter:blur(10px);*/\n  transition: 2s;\n}\n\n.vertical-center {\n  margin: 0;\n  display: table-cell;\n  vertical-align: middle;\n}\n\n.index-banner h2 {\n  margin: 0;\n  padding: 0;\n  font-family: Catamaran;\n  font-size: 60px;\n  color: #fff;\n  font-weight: 900;\n  line-height: 70px;\n  text-align: center;\n  text-shadow: 2px 2px 8px #111;\n}\n\n.index-banner h1 {\n  font-family: Cormorant Garamond;\n  font-size: 28px;\n  font-weight: 100;\n  font-style: italic;\n  line-height: 40px;\n  color: #fff;\n  text-align: center;\n  text-shadow: 2px 2px 8px #111;\n}\n"
+module.exports = "@media only screen and (min-width: 1000px) {\n\n  .index-banner {\n    height: 450px;\n  }\n\n\n  .index-banner h1 {\n    display: block;\n    width: 560px;\n    margin: 0 auto;\n\n  }\n\n  .index-links div {\n    margin: 0 auto;\n    padding: 0;\n    height: 250px;\n    background-color: #f2f2f2;\n  }\n\n  .index-boxlink-square {\n    width: calc(25% - 60px) !important;\n    margin: 0 auto;\n    padding: 0;\n  }\n}\n\n/**\nTODO: e3b46757de0e4d3282af3ba9042d1459\n */\n\n/*INDEX*/\n\n.index-banner {\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  height: calc(100vh - 100px);\n  background-image: url(\"https://picsum.photos/1200/1200/?random\");\n  background-repeat: no-repeat;\n  background-position: center;\n  background-attachment: fixed;\n  background-size: cover;\n  display: table;\n  overflow: hidden;\n}\n\n.vertical-center {\n  margin: 0;\n  display: table-cell;\n  vertical-align: middle;\n}\n\n.index-banner h2 {\n  margin: 0;\n  padding: 0;\n  font-family: Catamaran;\n  font-size: 60px;\n  color: #fff;\n  font-weight: 900;\n  line-height: 70px;\n  text-align: center;\n  text-shadow: 2px 2px 8px #111;\n}\n\n.index-banner h1 {\n  font-family: Cormorant Garamond;\n  font-size: 28px;\n  font-weight: 100;\n  font-style: italic;\n  line-height: 40px;\n  color: #fff;\n  text-align: center;\n  text-shadow: 2px 2px 8px #111;\n}\n"
 
 /***/ }),
 
@@ -288,7 +293,7 @@ var BannerComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "footer {\n  /*width: 100%;*/\n  padding: 100px 100px;\n  background-color: rgb(135,173,199);\n  margin-top: 20px;\n  overflow: hidden;\n\n  width: 100%;\n  height: calc(100vh - 100px);\n  background-image: url(\"https://picsum.photos/1200/1200/?random\");\n  background-repeat: no-repeat;\n  background-position: center;\n  background-attachment: fixed;\n  background-size: cover;\n  display: -ms-grid;\n  display: grid;\n}\n\n\n\n#wrap {\n  transition: color 4s ease-in-out;\n}\n\n\n\n::-webkit-input-placeholder {\n  color: white;\n  opacity: 50%;\n  text-shadow: black 1px 1px\n}\n\n\n\n::-ms-input-placeholder {\n  color: white;\n  opacity: 50%;\n  text-shadow: black 1px 1px\n}\n\n\n\n::placeholder {\n  color: white;\n  opacity: 50%;\n  text-shadow: black 1px 1px\n}\n\n\n\n.form {\n\n}\n\n\n\n.clearfix {\n  clear: both;\n}\n\n\n\n.contact {\n  /*width: 75%;*/\n}\n\n\n\n.form-control {\n  /*float: left;*/\n  background: transparent;\n  border: none;\n  border-bottom: 2px solid gainsboro;\n  color: #fff;\n  font-size: 18px;\n  margin-bottom: 16px;\n  text-shadow: #111111 5px 5px;\n}\n\n\n\ninput {\n  height: 45px;\n}\n\n\n\nform .submit {\n  width: 100%;\n  background: #ff5722;\n  border-color: transparent;\n  color: #fff;\n  font-size: 20px;\n  /*font-weight: bold;*/\n  letter-spacing: 2px;\n  /*height: 50px;*/\n  margin-top: 20px;\n}\n\n\n\nform .submit:hover {\n  background-color: #f44336;\n  cursor: pointer;\n}\n"
+module.exports = "footer {\n  /*width: 100%;*/\n  padding: 100px 100px;\n  margin-top: 20px;\n  overflow: hidden;\n\n  width: 100%;\n  height: calc(100vh - 100px);\n  background-image: url(\"https://picsum.photos/1200/1200/?random\");\n  background-repeat: no-repeat;\n  background-position: center;\n  background-attachment: fixed;\n  background-size: cover;\n  display: -ms-grid;\n  display: grid;\n}\n\n#wrap {\n  transition: color 4s ease-in-out;\n}\n\n::-webkit-input-placeholder {\n  color: white;\n  text-shadow: blue 1px 1px;\n  font-weight: bolder;\n}\n\n::-ms-input-placeholder {\n  color: white;\n  text-shadow: blue 1px 1px;\n  font-weight: bolder;\n}\n\n::placeholder {\n  color: white;\n  text-shadow: blue 1px 1px;\n  font-weight: bolder;\n}\n\ntextarea:focus, input:focus {\n  color: white;\n}\n\ntextarea:after, input:after {\n  color: white;\n}\n\n.clearfix {\n  clear: both;\n}\n\n.contact {\n  /*width: 75%;*/\n}\n\n.form-control {\n  /*float: left;*/\n\n  background: transparent;\n  border: none;\n  border-bottom: 2px solid white;\n  font-size: 18px;\n  margin-bottom: 16px;\n  /*text-shadow: #111111 5px 5px;*/\n}\n\ninput {\n  height: 45px;\n  color: white;\n}\n\nform .submit {\n  width: 100%;\n  background: #ff5722;\n  border-color: transparent;\n  color: white;\n  font-size: 20px;\n  /*font-weight: bold;*/\n  letter-spacing: 2px;\n  /*height: 50px;*/\n  margin-top: 20px;\n}\n\nform .submit:hover {\n  background-color: #f44336;\n  cursor: pointer;\n}\n"
 
 /***/ }),
 
@@ -347,6 +352,69 @@ var BottomComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/construction/construction.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/construction/construction.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n* {\n  resize: none;\n  overflow: hidden;\n}\n\n\n.text {\n  -webkit-filter: brightness(100%);\n          filter: brightness(100%);\n  font-family: Optima;\n  margin: 0 auto;\n  padding-top: 40px;\n  text-align: center;\n  text-transform: uppercase;\n  color: white;\n  font-weight: bolder;\n  font-size: 300px;\n}\n\n\nh2 {\n  font-style: italic;\n  padding-top: 40px;\n}\n\n\n.construction-banner {\n  width: 100%;\n  margin: 0;\n  padding: 0;\n  -webkit-filter: brightness(75%);\n          filter: brightness(75%);\n  height: calc(100vh - 100px);\n  background-image: url('construction.jpg');\n  background-repeat: no-repeat;\n  background-position: center;\n  background-attachment: fixed;\n  background-size: cover;\n  display: table;\n\n}\n"
+
+/***/ }),
+
+/***/ "./src/app/construction/construction.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/construction/construction.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<html>\n\n<header>\n</header>\n<body>\n\n<section class=\"construction-banner\">\n<div class=\"text\">\n  <h1>Coming soon</h1>\n  <h2>This page is under construction</h2>\n</div>\n</section>\n\n</body>\n\n</html>\n"
+
+/***/ }),
+
+/***/ "./src/app/construction/construction.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/construction/construction.component.ts ***!
+  \********************************************************/
+/*! exports provided: ConstructionComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ConstructionComponent", function() { return ConstructionComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ConstructionComponent = /** @class */ (function () {
+    function ConstructionComponent() {
+    }
+    ConstructionComponent.prototype.ngOnInit = function () {
+    };
+    ConstructionComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-construction',
+            template: __webpack_require__(/*! ./construction.component.html */ "./src/app/construction/construction.component.html"),
+            styles: [__webpack_require__(/*! ./construction.component.css */ "./src/app/construction/construction.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ConstructionComponent);
+    return ConstructionComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/header/header.component.css":
 /*!*********************************************!*\
   !*** ./src/app/header/header.component.css ***!
@@ -354,7 +422,7 @@ var BottomComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "@media only screen and (min-width: 1000px) {\n  header {\n    float: left;\n    margin: 0 auto;\n    padding: 0 auto;\n    display: block;\n  }\n\n  header .header-brand {\n    float: left;\n  }\n\n  /*list **** IF YOU CAN'T CENTRE THINGS, ADD A DISPLAY BLOCK*/\n  header nav ul {\n    /*float: right;*/\n    /*margin-right: 20px;*/\n    /*list-style: none;*/\n    /*display: block;*/\n  }\n\n  /*link in list*/\n  header nav ul li a {\n    line-height: 60px;\n    font-size: 10px;\n    padding: 10px;\n    margin: 0 auto;\n    /*text-align: center;*/\n    float: left;\n    list-style: none;\n    /*display: block;*/\n  }\n\n}\n\n.back {\n  float: right;\n}\n\n* {\n  text-decoration: none;\n  list-style-type: none;\n}\n\nbody {\n  background-color: #f3f3f3;\n}\n\nheader {\n  background-color: #fff;\n  width: 100%;\n  height: 100%;\n  letter-spacing: 2px;\n}\n\nheader .header-brand:hover {\n  color: burlywood;\n}\n\n#oar-text-element {\n  /*border: 1px solid #ccc;*/\n  display: none;\n  font-size: 10px;\n  /*margin-top: 10px;*/\n  /*padding: 5px;*/\n  text-transform: uppercase;\n}\n\n#oars:hover #oar-text-element {\n  display: inline-block;\n  -webkit-transform: translateX(26px);\n  transform: translateX(65px);\n  transition: 1s;\n\n  transition: ease-in-out;\n  font-style: italic;\n}\n\n#oars {\n  cursor: none;\n  padding: 20px;\n  float: left;\n}\n\nheader .header-brand {\n  text-decoration: none;\n  font-family: \"Big Caslon\";\n  font-size: 28px;\n  font-weight: 200;\n  color: #122;\n  text-transform: uppercase;\n\n  /*center text*/\n  display: block;\n  margin: 0 20px;\n  /*text-align: center;*/\n\n  /*20 top and bottom, 0 left and right*/\n  padding: 20px 60px;\n}\n\n/*list **** IF YOU CAN'T CENTRE THINGS, ADD A DISPLAY BLOCK*/\n\nheader nav ul {\n  margin: 0;\n  width: 100%;\n  display: block;\n  transition: 1s;\n}\n\n/*list items*/\n\nheader nav ul li {\n  /*display: inline-block;*/\n  float: left;\n  list-style: none;\n  padding: 0 40px 0 80px;\n}\n\n/*link in list*/\n\nheader nav ul li a {\n  font-family: 'Catamaran', sans-serif;\n  font-size: 26px;\n  font-weight: 500;\n  color: #124;\n}\n\n/*animated line*/\n\nheader nav ul li a:hover {\n  color: burlywood;\n}\n\nheader nav ul li a::after {\n  vertical-align: top;\n  display: block;\n  margin: 0 auto;\n  content: '';\n\n  width: 0;\n  height: 2px;\n\n  transition: width 3s;\n\n  background-color: burlywood;\n}\n\nheader nav ul li a:hover::after {\n  vertical-align: top;\n  width: 100%;\n  transition: width .3s;\n\n}\n\n/**\nSWITCH\n */\n\n/*.switch:hover {*/\n\n/*background-color: gray;*/\n\n/*transition: 2s;*/\n\n/*}*/\n\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 100px;\n  height: 34px;\n}\n\n.switch input {\n  display: none;\n  padding-top: 100px;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  float: left;\n  right: 0;\n  bottom: 0;\n  background-color: #ca2222;\n  transition: .4s;\n  border-radius: 100px;\n}\n\n.slider:before {\n  /**\n  COMMENT TO ELIMINATE DOT\n   */\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  left: 4px;\n  bottom: 4px;\n  background-color: white;\n  transition: .4s;\n  border-radius: 50%;\n}\n\n.switch-wrap {\n  padding-top: 25px;\n}\n\ninput:checked + .slider {\n  background-color: #2ab934;\n}\n\ninput:focus + .slider {\n  box-shadow: 0 0 1px #2196F3;\n}\n\ninput:checked + .slider:before {\n  -webkit-transform: translateX(26px);\n  transform: translateX(65px);\n}\n\n/*------ ADDED CSS ---------*/\n\n.slider:after {\n  text-align: center;\n  content: 'off';\n  color: white;\n  display: block;\n  position: absolute;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  top: 50%;\n  left: 50%;\n  font-size: 10px;\n  font-family: Verdana, sans-serif;\n}\n\ninput:checked + .slider:after {\n  content: 'on';\n}\n\n/*--------- END --------*/\n"
+module.exports = "@media only screen and (min-width: 1000px) {\n  header {\n    float: left;\n    margin: 0 auto;\n    padding: 0 auto;\n    display: block;\n  }\n\n  header .header-brand {\n    float: left;\n  }\n\n  /*list **** IF YOU CAN'T CENTRE THINGS, ADD A DISPLAY BLOCK*/\n  header nav ul {\n    /*float: right;*/\n    /*margin-right: 20px;*/\n    /*list-style: none;*/\n    /*display: block;*/\n  }\n\n  /*link in list*/\n  header nav ul li a {\n    line-height: 60px;\n    font-size: 10px;\n    padding: 5px;\n    margin: 0 auto;\n    /*text-align: center;*/\n    float: left;\n    list-style: none;\n    /*display: block;*/\n  }\n\n}\n\n.back {\n  float: right;\n}\n\n* {\n  text-decoration: none;\n  list-style-type: none;\n}\n\nbody {\n  background-color: #f3f3f3;\n}\n\nheader {\n  background-color: #fff;\n  float: left;\n  margin: 0 auto;\n  padding: 0 auto;\n  display: block;\n  width: 100%;\n  height: 100%;\n  letter-spacing: 2px;\n}\n\nheader .header-brand:hover {\n  color: burlywood;\n}\n\n#oar-text-element {\n  /*border: 1px solid #ccc;*/\n  display: none;\n  font-size: 10px;\n  /*margin-top: 10px;*/\n  /*padding: 5px;*/\n  text-transform: uppercase;\n}\n\n/*#oars:hover #oar-text-element {*/\n\n/*display: inline-block;*/\n\n/*-webkit-transform: translateX(26px);*/\n\n/*-ms-transform: translateX(42px);*/\n\n/*transform: translateX(65px);*/\n\n/*transition: 1s;*/\n\n/*transition: ease-in-out;*/\n\n/*font-style: italic;*/\n\n/*}*/\n\n/*#oars {*/\n\n/*cursor: none;*/\n\n/*padding: 20px;*/\n\n/*float: left;*/\n\n/*}*/\n\nheader .header-brand {\n  text-decoration: none;\n  font-family: \"Big Caslon\";\n  font-size: 28px;\n  font-weight: 200;\n  color: #122;\n  text-transform: uppercase;\n\n  /*center text*/\n  display: block;\n  margin: 0 20px;\n  /*text-align: center;*/\n\n  /*20 top and bottom, 0 left and right*/\n  padding: 20px 60px;\n}\n\n/*list **** IF YOU CAN'T CENTRE THINGS, ADD A DISPLAY BLOCK*/\n\nheader nav ul {\n  margin: 0;\n  width: 100%;\n  display: block;\n  transition: 1s;\n}\n\n/*list items*/\n\nheader nav ul li {\n  /*display: inline-block;*/\n  float: left;\n  list-style: none;\n  padding: 0 40px 0 80px;\n}\n\n/*link in list*/\n\nheader nav ul li a {\n  font-family: 'Catamaran', sans-serif;\n  font-size: 26px;\n  font-weight: 500;\n  color: #124;\n}\n\n/*animated line*/\n\nheader nav ul li a:hover {\n  color: burlywood;\n}\n\nheader nav ul li a::after {\n  vertical-align: top;\n  display: block;\n  margin: 0 auto;\n  content: '';\n\n  width: 0;\n  height: 2px;\n\n  transition: width 3s;\n\n  background-color: burlywood;\n}\n\nheader nav ul li a:hover::after {\n  vertical-align: top;\n  width: 100%;\n  transition: width .3s;\n\n}\n\n/**\nSWITCH\n */\n\n/*.switch:hover {*/\n\n/*background-color: gray;*/\n\n/*transition: 2s;*/\n\n/*}*/\n\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 100px;\n  height: 34px;\n}\n\n.switch input {\n  display: none;\n  padding-top: 100px;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  float: left;\n  right: 0;\n  bottom: 0;\n  background-color: #ca2222;\n  transition: .4s;\n  border-radius: 100px;\n}\n\n.slider:before {\n  /**\n  COMMENT TO ELIMINATE DOT\n   */\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  left: 4px;\n  bottom: 4px;\n  background-color: white;\n  transition: .4s;\n  border-radius: 50%;\n}\n\n.switch-wrap {\n  padding-top: 25px;\n}\n\ninput:checked + .slider {\n  background-color: #2ab934;\n}\n\ninput:focus + .slider {\n  box-shadow: 0 0 1px #2196F3;\n}\n\ninput:checked + .slider:before {\n  -webkit-transform: translateX(26px);\n  transform: translateX(65px);\n}\n\n/*------ ADDED CSS ---------*/\n\n.slider:after {\n  text-align: center;\n  content: 'off';\n  color: white;\n  display: block;\n  position: absolute;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  top: 50%;\n  left: 50%;\n  font-size: 10px;\n  font-family: Verdana, sans-serif;\n}\n\ninput:checked + .slider:after {\n  content: 'on';\n}\n\n/*--------- END --------*/\n"
 
 /***/ }),
 
@@ -679,7 +747,7 @@ var OptionsComponent = /** @class */ (function () {
     OptionsComponent.prototype.ngOnInit = function () {
     };
     OptionsComponent.prototype.downloadPDF = function () {
-        window.open('cv.pdf', '_blank', 'fullscreen=yes');
+        window.open('/cv.pdf', '_blank', 'fullscreen=yes');
         return false;
     };
     OptionsComponent = __decorate([
@@ -830,7 +898,7 @@ var ProjectsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n@media only screen and (min-width: 1000px) {\n\n\n\n}\n\n\n\n.introduction {\n  /*background: burlywood;*/\n\n  /*IMAGES*/\n  /*height: calc(100vh - 100px);*/\n  /*background-image: url(\"https://picsum.photos/1200/1200/?random\");*/\n  background-image: url('stars.jpg');\n  background-repeat: no-repeat;\n  background-position: center;\n  background-attachment: fixed;\n  background-size: cover;\n  display: table;\n  overflow: hidden;\n  width: -webkit-fit-content;\n  width: -moz-fit-content;\n  width: fit-content;\n  font-size: 15px;\n}\n\n\n\n.section-subtitle {\n  line-height: 32px;\n  font-weight: 400;\n}\n\n\n\n.icon-block-description {\n  line-height: 30px;\n  margin-bottom: 40px;\n  font-weight: 500;\n}\n\n\n\n.icon {\n  color: #ff5722;\n}\n\n\n\n.parent {\n  padding: 1rem;\n}\n\n\n\n.left-wrap {\n  margin: 20px;\n}\n\n\n\n.flex-parent {\n  display: flex;\n}\n\n\n\n.flex-child {\n  flex: 1;\n}\n\n\n\n.child {\n  padding: 1rem;\n}\n\n\n\n.child h4 {\n  font-size: 30px;\n}\n\n\n\nsection {\n  clear: both;\n  max-resolution: res;\n}\n\n\n\n/* Rows and Columns */\n\n\n\n.row {\n  padding: 20px 20px;\n}\n\n\n\n.image-cartoon-div {\n  height: 100px;\n  width: 140px\n}\n\n\n\n#about {\n  color: white;\n\n  float: left;\n  display: flex;\n}\n\n\n\n.col-3 {\n  float: left;\n}\n\n\n\n.section-title {\n  font-weight: 900;\n  font-family: Palatino;\n  letter-spacing: 3px;\n  text-transform: uppercase;\n}\n\n\n\n.col-2-3 {\n  display: flex;\n}\n\n\n\n.first-two-skills h4 {\n  font-size: 30px;\n}\n\n\n\n.section-heading h3 {\n  font-size: 15px;\n  text-transform: uppercase;\n  font-weight: bold;\n  color: #ccc;\n  letter-spacing: 5px;\n  padding-bottom: 0;\n  padding-top: 0;\n  /*font-family: FontAwesome;*/\n}\n\n\n\n* {\n  flex-wrap: wrap;\n  flex-direction: row;\n  justify-content: space-around;\n}\n"
+module.exports = "@media (max-width: 640px) {\n  .flex-container {\n    flex-direction: column;\n    flex-wrap: wrap;\n    display: block;\n    align-items: stretch;\n  }\n\n  .who-am-i {\n    display: inline-block;\n    flex-direction: column;\n    text-align: center;\n    flex: auto;\n  }\n\n}\n\n.flex-container {\n  display: flex;\n  flex-direction: row;\n}\n\n.bottom-skill {\n  margin-top: 100px;\n}\n\nsection {\n  color: white;\n}\n\n/*sectiontitle, Who Am I*/\n\nh2 {\n  text-shadow: gold 1px 1px;\n  font-weight: bolder;\n}\n\n.who-am-i {\n  letter-spacing: 2px;\n  font-family: inherit;\n  margin: 30px 100px 40px 40px;\n  width: 33%;\n  line-height: 1cm;\n\n  -webkit-filter: blur(0px);\n  -moz-filter: blur(0px);\n  -o-filter: blur(0px);\n  -ms-filter: blur(13px);\n  filter: blur(0px);\n  font-size: 15px;\n}\n\n.fa {\n  color: red;\n}\n\nh3 {\n  text-shadow: blue 1px 0;\n  font-size: 8px;\n  text-transform: uppercase;\n  color: #ccc;\n  letter-spacing: 5px;\n  padding-bottom: 0;\n  padding-top: 0;\n\n}\n\n.first-skills-col, .second-skills-col {\n  -webkit-filter: blur(0px);\n  -moz-filter: blur(0px);\n  -o-filter: blur(0px);\n  -ms-filter: blur(13px);\n  filter: blur(0px);\n\n  letter-spacing: 1px;\n  font-family: inherit;\n  margin: 50px 0 40px 40px;\n  width: 33%;\n  line-height: 1cm;\n  font-size: 15px;\n\n}\n\nh4 {\n  font-size: 20px;\n}\n\n.introduction {\n  /*!*background: burlywood;*!*/\n\n  /*!*IMAGES*!*/\n  /*!*height: calc(100vh - 100px);*!*/\n\n  -webkit-filter: blur(20%);\n  -moz-filter: blur(20%);\n  -o-filter: blur(20%);\n  -ms-filter: blur(20%);\n  filter: blur(20%);\n  background-image: url('cubic.jpg');\n  background-repeat: no-repeat;\n  background-position: center;\n  background-attachment: fixed;\n  background-size: cover;\n  display: flex;\n  margin: 0;\n  text-align: left;\n  overflow: hidden;\n  width: -webkit-fit-content;\n  width: -moz-fit-content;\n  width: fit-content;\n}\n"
 
 /***/ }),
 
@@ -841,7 +909,7 @@ module.exports = "\n@media only screen and (min-width: 1000px) {\n\n\n\n}\n\n\n\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<html>\n<head>\n  <link href=\"https://fonts.googleapis.com/css?family=Catamaran|Cormorant+Garamond\" rel=\"stylesheet\">\n</head>\n\n<div class=\"wrapper\">\n\n  <section id=\"about\" class=\"introduction scrollto parent flex-parent\">\n    <div class=\"row\" data-aos=\"slide-up\">\n\n      <div class=\"child flex-child\">\n        <div class=\"left-wrap\">\n          <div class=\"section-heading\">\n            <h3>Success</h3>\n            <h2 class=\"section-title\">Who Am I</h2>\n            <br>\n\n            <p class=\"section-subtitle\">Will Angell-James is an English-turned-Bostonian athlete who's academic and\n              sporting achievements earned him a scholarship to study Computer Science and Philosophy at Northeastern\n              University, in America.\n              <br>\n              <br>\n              Despite graduating in Fall 2018, Will spends much of his free time taking additional classes to further\n              his\n              iOS and Web Development capabilities.\n              <br> Beyond his interest in software development, Will enjoys producing music, skiing, scuba-diving, and\n              playing the banjo!\n          </div>\n        </div>\n      </div>\n      <div class=\"child\">\n\n      </div>\n\n      <div class=\"child flex-child\">\n\n        <!--First two skills-->\n        <div class=\"first-two-skills\">\n\n          <!--Icon-->\n          <div class=\"icon\">\n            <i class=\"fa fa-rocket fa-2x\"></i>\n          </div>\n\n          <!--Icon Block Description-->\n          <div class=\"icon-block-description\">\n            <h4>Languages</h4>\n            <p>Will is proficient in Java\n              and has working knowledge of Javascript, Python, HTML, CSS, SQL\n              and Swift\n            </p>\n          </div>\n        </div>\n\n\n        <!--Icon-->\n        <div class=\"icon\">\n          <i class=\"fa fa-power-off fa-2x\"></i>\n        </div>\n        <!--Icon Block Description-->\n        <div class=\"icon-block-description\">\n          <h4>Frameworks</h4>\n          <p>He has used a variety of frameworks and has done projects on each one to learn of their technicalities.\n            These include AngularJS, React, Node.js, Electron, MongoDB, MySQL, Express.js\n            and React Native. Most of his projects can be found in his github</p>\n        </div>\n      </div>\n\n\n      <div class=\"child flex-child\">\n        <!--Second two skills-->\n        <div class=\"right-info\">\n          <div>\n            <!--Icon-->\n            <div class=\"icon\">\n              <i class=\"fa fa-bolt fa-2x\"></i>\n            </div>\n            <!--Icon Block Description-->\n            <div class=\"icon-block-description\">\n              <h4>Management</h4>\n              <p>Will has had a variety of professional roles, most notable is his work at the Northeastern Art\n                Gallery\n                where\n                he managed a team of 40 people to ensure consistency and quality of shows</p>\n            </div>\n          </div>\n        </div>\n\n\n        <div class=\"icon\">\n          <i class=\"fa fa-fighter-jet fa-2x\"></i>\n        </div>\n        <!--Icon Block Description-->\n        <div class=\"icon-block-description\">\n          <h4>Sports</h4>\n          <p>In addition to his plethora of knowledge, Will spends a lot of time on the river refining his rowing. He is\n            also an avid runner and skier\n            technique</p>\n        </div>\n      </div>\n    </div>\n\n    <!--<h4 class=\"section-title-two\">“A good programmer is someone who looks-->\n    <!--both ways before crossing a one-way street” <br>- Doug Linder.</h4><br>-->\n\n  </section>\n</div>\n\n</html>\n\n"
+module.exports = "<html>\n<head>\n  <link href=\"https://fonts.googleapis.com/css?family=Catamaran|Cormorant+Garamond\" rel=\"stylesheet\">\n</head>\n\n\n<section id=\"about\" class=\"flex-container introduction scrollto\">\n\n\n  <div class=\"who-am-i\">\n    <h3>Success</h3>\n    <h2 class=\"section-title\">Who Am I</h2>\n    <br>\n\n    <p class=\"section-subtitle\">Will Angell-James is an English-turned-Bostonian athlete who's academic and\n      sporting achievements earned him a scholarship to study Computer Science and Philosophy at Northeastern\n      University, in America.\n      <br>\n      <br>\n      Despite graduating in Fall 2018, Will spends much of his free time taking additional classes to further\n      his\n      iOS and Web Development capabilities.\n      <br> Beyond his interest in software development, Will enjoys producing music, skiing, scuba-diving, and\n      playing the banjo!\n  </div>\n\n\n  <!--First Skills Column -->\n\n  <div class=\"first-skills-col\">\n    <i class=\"fa fa-rocket fa-2x\"></i>\n    <h4>Languages</h4>\n    <p>Will is proficient in Java\n      and has working knowledge of Javascript, Python, HTML, CSS, SQL\n      and Swift\n    </p>\n\n    <!--Icon-->\n    <i class=\"fa fa-power-off fa-2x bottom-skill\"></i>\n    <h4>Frameworks</h4>\n    <p>He has used a variety of frameworks and has done projects on each one to learn of their technicalities.\n      These include AngularJS, React, Node.js, Electron, MongoDB, MySQL, Express.js\n      and React Native. Most of his projects can be found in his github</p>\n  </div>\n\n\n  <!--second skills column-->\n\n  <div class=\"second-skills-col\">\n    <i class=\"fa fa-bolt fa-2x\"></i>\n    <h4>Management</h4>\n    <p>Will has had a variety of professional roles, most notable is his work at the Northeastern Art\n      Gallery\n      where\n      he managed a team of 40 people to ensure consistency and quality of shows</p>\n\n    <i class=\"fa fa-fighter-jet fa-2x bottom-skill\"></i>\n    <h4>Sports</h4>\n    <p>In addition to his plethora of knowledge, Will spends a lot of time on the river refining his rowing technique. He is\n      also an avid runner and skier</p>\n  </div>\n\n</section>\n\n</html>\n"
 
 /***/ }),
 
