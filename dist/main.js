@@ -716,7 +716,7 @@ module.exports = "@media only screen and (min-width: 1000px) {\n\n  .index-links
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<html>\n<head>\n  <link href=\"https://fonts.googleapis.com/css?family=Catamaran|Cormorant+Garamond\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.2.0/css/all.css\"\n        integrity=\"sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ\" crossorigin=\"anonymous\">\n  <link href=\"../../../node_modules/animate.css\">\n</head>\n\n<div class=\"whole-wrapper delay-2s\">\n\n  <div class=\"wrapper\">\n\n    <section class=\"index-links\" style=\"overflow: hidden; resize: none\">\n\n      <a href=\"https://github.com/cwaj400\">\n        <div class=\"index-boxlink-rectangle\" style=\"overflow: hidden; resize: none\" data-aos=\"slide-up\">\n          <h3 style=\"text-decoration: none\">Github</h3>\n        </div>\n      </a>\n\n      <a (click)=\"downloadPDF()\">\n        <div class=\"index-boxlink-rectangle\" style=\"overflow: hidden; resize: none\"  data-aos=\"slide-up\">\n          <h3 style=\"text-decoration: none;\">View Resume</h3>\n        </div>\n      </a>\n\n      <a href=\"https://soundcloud.com/4am-4\">\n        <div class=\"index-boxlink-rectangle-long\" style=\"overflow: hidden; resize: none\" data-aos=\"slide-up\">\n          <h3 style=\"text-decoration: none;\">Music</h3>\n        </div>\n      </a>\n\n      <a href=\"https://linkedin.com/in/will-angell-james-48a354118/\">\n        <div class=\"index-boxlink-rectangle-long\" style=\"overflow: hidden; resize: none\" data-aos=\"slide-up\">\n          <h3 style=\"text-decoration: none;\">LinkedIn</h3>\n        </div>\n      </a>\n\n    </section>\n  </div>\n</div>\n\n</html>\n"
+module.exports = "<html>\n<head>\n  <link href=\"https://fonts.googleapis.com/css?family=Catamaran|Cormorant+Garamond\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.2.0/css/all.css\"\n        integrity=\"sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ\" crossorigin=\"anonymous\">\n  <link href=\"../../../node_modules/animate.css\">\n</head>\n\n<div class=\"whole-wrapper delay-2s\">\n\n  <div class=\"wrapper\">\n\n    <section class=\"index-links\" style=\"overflow: hidden; resize: none\">\n\n      <a href=\"https://github.com/cwaj400\">\n        <div class=\"index-boxlink-rectangle\" style=\"overflow: hidden; resize: none\" data-aos=\"slide-up\">\n          <h3 style=\"text-decoration: none\">Github</h3>\n        </div>\n      </a>\n\n      <a href=\"https://bit.ly/2Wp5qGq\">\n        <div class=\"index-boxlink-rectangle\" style=\"overflow: hidden; resize: none\"  data-aos=\"slide-up\">\n          <h3 style=\"text-decoration: none;\">View Resume</h3>\n        </div>\n      </a>\n\n      <a href=\"https://soundcloud.com/4am-4\">\n        <div class=\"index-boxlink-rectangle-long\" style=\"overflow: hidden; resize: none\" data-aos=\"slide-up\">\n          <h3 style=\"text-decoration: none;\">Music</h3>\n        </div>\n      </a>\n\n      <a href=\"https://linkedin.com/in/will-angell-james-48a354118/\">\n        <div class=\"index-boxlink-rectangle-long\" style=\"overflow: hidden; resize: none\" data-aos=\"slide-up\">\n          <h3 style=\"text-decoration: none;\">LinkedIn</h3>\n        </div>\n      </a>\n\n    </section>\n  </div>\n</div>\n\n</html>\n"
 
 /***/ }),
 
@@ -745,10 +745,6 @@ var OptionsComponent = /** @class */ (function () {
     function OptionsComponent() {
     }
     OptionsComponent.prototype.ngOnInit = function () {
-    };
-    OptionsComponent.prototype.downloadPDF = function () {
-        window.open('/website/cv.pdf', '_blank', 'fullscreen=yes');
-        return false;
     };
     OptionsComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({

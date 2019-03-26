@@ -14,9 +14,4 @@ export class OptionsComponent implements OnInit {
   ngOnInit() {
   }
 
-  downloadPDF() {
-    window.open('/website/cv.pdf', '_blank', 'fullscreen=yes');
-    return false;
-  }
-
 }
