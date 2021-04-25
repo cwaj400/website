@@ -238,10 +238,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.Angular Application" />
       <item itemvalue="Karma.Tests" />
-      <item itemvalue="npm.Angular CLI Server" />
       <item itemvalue="Protractor.E2E Tests" />
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="npm.Angular CLI Server" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
