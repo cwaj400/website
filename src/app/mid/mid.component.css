@@ -1,9 +1,0 @@
-body {
-  width: 100px;
-  height: 15px;
-  color: white;
-}
-
-body:hover {
-  cursor: default;
-}

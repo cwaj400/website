@@ -3,7 +3,14 @@
   resize: none;
   overflow: hidden;
 }
+p {
+  font-family: "Times New Roman", Times, serif;
+  text-transform: lowercase;
+  font-size: 30px;
+  font-style: italic;
 
+  padding-top: 10%;
+}
 
 .text {
   filter: brightness(100%);

@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  flex: 33.33%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.row {
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* relevant styles */
+.column {
+  position: relative;
+}
+
+.img-description-layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*background: black;*/
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .5s, visibility .5s;
+}
+
+.column:hover .img-description-layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img-description {
+  transition: .5s;
+  transform: translateY(1em);
+}
+

@@ -7,24 +7,16 @@
 </head>
 <body>
 <header>
-  <a routerLink="/home" (click)="name()" class="header-brand" routerLinkActive="active">will Angell James</a>
+  <a routerLink="/home" (click)="name()" class="header-brand" routerLinkActive="active">Will Angell James</a>
 
   <nav>
     <ul>
-      <li><a *ngIf="router.url != '/portfolio'" style="text-decoration: none" (click)="portfolio()" routerLink="/portfolio" class="portfolio"
-             routerLinkActive="active"  class="animated bounceInDown">Portfolio</a></li>
-      <li><a *ngIf="router.url != '/portfolio'" class="animated bounceInDown" (click)="about()" style="text-decoration: none; cursor:pointer;" routerLinkActive="active">About</a></li>
-      <li><a *ngIf="router.url != '/portfolio'" class="animated bounceInDown" (click)="contact()" style="text-decoration: none; cursor: pointer" routerLinkActive="active">Contact</a>
-      <li><a *ngIf="router.url == '/portfolio'" routerLink="/home" style="text-decoration: none; cursor: pointer" class="animated bounceInDown delay-1s back" routerLinkActive="active">Back</a>
+      <li><a *ngIf="router.url != '/portfolio'" style="text-decoration: none" routerLink="/portfolio" class="portfolio"
+             routerLinkActive="active" >Portfolio</a></li>
+      <li><a *ngIf="router.url != '/portfolio'" style="text-decoration: none; cursor:pointer;" routerLink="/construction" routerLinkActive="active">About</a></li>
+      <li><a *ngIf="router.url != '/portfolio'" style="text-decoration: none; cursor: pointer" routerLink="/construction"  routerLinkActive="active">Contact</a>
+      <li><a *ngIf="router.url == '/portfolio'" routerLink="/home" style="text-decoration: none; cursor: pointer" class="back" routerLinkActive="active">Back</a>
       </li>
-      <!--<li>-->
-      <!--<div class="switch-wrap">-->
-      <!--<label class="switch"><input type="checkbox" id="togBtn">-->
-      <!--<div class="slider round">-->
-      <!--</div>-->
-      <!--</label>-->
-      <!--</div>-->
-      <!--</li>-->
     </ul>
   </nav>
 </header>

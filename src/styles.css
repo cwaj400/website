@@ -1,6 +1,12 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 /* You can add global styles to this file, and also import other style files */
-
+@font-face {
+  font-family: 'Buda';
+  src:url('Buda.ttf.woff') format('woff'),
+  url('Buda.ttf.svg#Buda') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   text-decoration: none;

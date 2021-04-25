@@ -3,6 +3,7 @@
     float: left;
     margin: 0 auto;
     padding: 0 auto;
+    padding-bottom: 10px;
     display: block;
   }
 
@@ -56,35 +57,10 @@ header {
   letter-spacing: 2px;
 }
 
+/* My name*/
 header .header-brand:hover {
-  color: burlywood;
 }
 
-#oar-text-element {
-  /*border: 1px solid #ccc;*/
-  display: none;
-  font-size: 10px;
-  /*margin-top: 10px;*/
-  /*padding: 5px;*/
-  text-transform: uppercase;
-}
-
-/*#oars:hover #oar-text-element {*/
-  /*display: inline-block;*/
-  /*-webkit-transform: translateX(26px);*/
-  /*-ms-transform: translateX(42px);*/
-  /*transform: translateX(65px);*/
-  /*transition: 1s;*/
-
-  /*transition: ease-in-out;*/
-  /*font-style: italic;*/
-/*}*/
-
-/*#oars {*/
-  /*cursor: none;*/
-  /*padding: 20px;*/
-  /*float: left;*/
-/*}*/
 
 header .header-brand {
   text-decoration: none;
@@ -92,14 +68,11 @@ header .header-brand {
   font-size: 28px;
   font-weight: 200;
   color: #122;
-  text-transform: uppercase;
+
 
   /*center text*/
   display: block;
   margin: 0 20px;
-  /*text-align: center;*/
-
-  /*20 top and bottom, 0 left and right*/
   padding: 20px 60px;
 }
 
@@ -153,14 +126,6 @@ header nav ul li a:hover::after {
 
 }
 
-/**
-SWITCH
- */
-
-/*.switch:hover {*/
-/*background-color: gray;*/
-/*transition: 2s;*/
-/*}*/
 
 .switch {
   position: relative;

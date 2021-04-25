@@ -703,11 +703,11 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/williamangell-james/Documents/website/node_modules/animate.css/animate.min.css */"./node_modules/animate.css/animate.min.css");
-__webpack_require__(/*! /Users/williamangell-james/Documents/website/src/styles.css */"./src/styles.css");
-__webpack_require__(/*! /Users/williamangell-james/Documents/website/node_modules/bootstrap/dist/css/bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
-__webpack_require__(/*! /Users/williamangell-james/Documents/website/node_modules/font-awesome/css/font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
-module.exports = __webpack_require__(/*! /Users/williamangell-james/Documents/website/node_modules/aos/dist/aos.css */"./node_modules/aos/dist/aos.css");
+__webpack_require__(/*! /Users/WilliamVersion2/Documents/software/website/node_modules/animate.css/animate.min.css */"./node_modules/animate.css/animate.min.css");
+__webpack_require__(/*! /Users/WilliamVersion2/Documents/software/website/src/styles.css */"./src/styles.css");
+__webpack_require__(/*! /Users/WilliamVersion2/Documents/software/website/node_modules/bootstrap/dist/css/bootstrap.css */"./node_modules/bootstrap/dist/css/bootstrap.css");
+__webpack_require__(/*! /Users/WilliamVersion2/Documents/software/website/node_modules/font-awesome/css/font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
+module.exports = __webpack_require__(/*! /Users/WilliamVersion2/Documents/software/website/node_modules/aos/dist/aos.css */"./node_modules/aos/dist/aos.css");
 
 
 /***/ })

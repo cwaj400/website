@@ -1,19 +1,16 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {ProjectsComponent} from './projects/projects.component';
 import {HomeComponent} from './home/home.component';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
-import {InfoComponent} from './info/info.component';
-import {BottomComponent} from './bottom/bottom.component';
 import {ConstructionComponent} from './construction/construction.component';
+import {PortfolioComponent} from './portfolio/portfolio.component';
 
 const routes: Routes = [
-  {path: 'portfolio', component: ConstructionComponent, data: {title: 'Projects'}},
+  {path: 'portfolio', component: PortfolioComponent, data: {title: 'Projects'}},
   {path: 'home', component: HomeComponent, data: {title: 'Home'}},
   {path: '', component: HomeComponent, pathMatch: 'full'},
+  {path: 'construction', component: ConstructionComponent},
   {path: '**', component: PageNotFoundComponent}
-
-
 ];
 
 @NgModule({
@@ -25,4 +22,4 @@ export class AppRoutingModule {
 
 }
 
-export const routingComponents = [ProjectsComponent, HomeComponent];
+export const routingComponents = [HomeComponent];

@@ -22,25 +22,6 @@ export class HeaderComponent implements OnInit {
     }
   }
 
-
-  contact() {
-    window.scrollTo({
-      top: 4000,
-      behavior: 'smooth'
-    });
-  }
-
-  portfolio() {
-    // window.location.href = ('/portfolio');
-  }
-
-  about() {
-    window.scrollTo({
-      top: 900,
-      behavior: 'smooth'
-    });
-  }
-
   name() {
     window.scrollTo({
       top: 110,
