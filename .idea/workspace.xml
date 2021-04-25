@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ed3f259f-5340-4a7d-8120-21ef002639a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/cv.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -21,6 +22,8 @@
       <change beforePath="$PROJECT_DIR$/src/app/portfolio/portfolio.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/portfolio/portfolio.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/example.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" />
+=======
+>>>>>>> vcommit
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,8 +295,12 @@
       <workItem from="1551392523936" duration="81216000" />
       <workItem from="1551812916023" duration="58267000" />
       <workItem from="1553627690321" duration="1394000" />
+<<<<<<< HEAD
       <workItem from="1619272811210" duration="12348000" />
       <workItem from="1619434521029" duration="1486000" />
+=======
+      <workItem from="1619272811210" duration="12866000" />
+>>>>>>> vcommit
     </task>
     <servers />
   </component>
