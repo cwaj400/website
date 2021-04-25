@@ -3,42 +3,41 @@
   <component name="ChangeListManager">
     <list default="true" id="ed3f259f-5340-4a7d-8120-21ef002639a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/3rdpartylicenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/3rdpartylicenses.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/polyfills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/banner/banner.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/banner/banner.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/banner/banner.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/banner/banner.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/bottom/bottom.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/bottom/bottom.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/bottom/bottom.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/construction/construction.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/construction/construction.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/construction/construction.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/construction/construction.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/header/header.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/header/header.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/info/info.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/info/info.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/mid/mid.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/mid/mid.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/mid/mid.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/options/options.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/options/options.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/options/options.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/projects.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/projects.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/projects.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/skills/skills.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/skills/skills.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/skills/skills.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/social-buttons/social-buttons.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/social-buttons/social-buttons.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/3rdpartylicenses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/construction.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/cubic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/oars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/rbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/snow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/stars.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/suit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/ticker.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/construction.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/cubic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/polyfills.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/polyfills.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/runtime.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/animate.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +282,7 @@
       <workItem from="1551392523936" duration="81216000" />
       <workItem from="1551812916023" duration="58267000" />
       <workItem from="1553627690321" duration="1394000" />
-      <workItem from="1619272811210" duration="10272000" />
+      <workItem from="1619272811210" duration="11252000" />
     </task>
     <servers />
   </component>

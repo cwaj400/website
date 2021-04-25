@@ -1,7 +1,8 @@
 {
-  "name": "website",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "ng": "ng",
     "start": "node server.js",
     "postinstall": "ng build --aot",
@@ -23,7 +24,6 @@
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
     "animate.css": "^3.7.0",
-    "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
     "express": "^4.16.4",
