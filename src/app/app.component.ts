@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {Router, NavigationEnd} from '@angular/router';
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +7,5 @@ import {Router, NavigationEnd} from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  // title = 'website';
+  title = environment.title;
 }
