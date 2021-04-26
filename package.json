@@ -23,6 +23,7 @@
     "@angular/platform-browser-dynamic": "^11.2.11",
     "@angular/router": "^11.2.11",
     "animate.css": "^3.7.0",
+    "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
     "express": "^4.16.4",
