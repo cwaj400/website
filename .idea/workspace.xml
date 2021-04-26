@@ -3,7 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="ed3f259f-5340-4a7d-8120-21ef002639a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/3rdpartylicenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/3rdpartylicenses.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Buda.ttf.22d2505784f8b621c345.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Buda.ttf.4dc0c8c26fa29a3deec5.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/construction.d415284fa4ae43eda3e2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.674f50d287a8c48dc19b.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.912ec66d7572ff821749.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.af7ae505a9eed503f8b8.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.b06871f281fee6b241d6.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.fee66e712a8a08eef580.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.e6e7c4cc713417febab0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/polyfills.d795936709729848a152.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/runtime.a66f828dca56eeb90e02.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts.9b1207587ef3aa866146.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.9a82153a6a1fe3e94e96.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
