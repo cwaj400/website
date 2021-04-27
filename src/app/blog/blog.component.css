@@ -1,0 +1,9 @@
+.blog-row {
+  column-count: 2;
+  column-width: 100px;
+}
+
+.row {
+  display: inline-block;
+  overflow: hidden;
+}

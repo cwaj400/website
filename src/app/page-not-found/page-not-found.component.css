@@ -1,0 +1,18 @@
+
+
+.not-found-text {
+  text-align: center;
+  font-size: 300px;
+  display: block;
+  font-weight: bold;
+
+}
+
+.not-found-subtext {
+  font-size: 20px;
+  font-style: italic;
+  display: block;
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 20px;
+}

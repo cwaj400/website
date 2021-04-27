@@ -13,8 +13,9 @@
     <ul>
       <li><a *ngIf="router.url != '/portfolio'" style="text-decoration: none" routerLink="/portfolio" class="portfolio"
              routerLinkActive="active" >Portfolio</a></li>
+      <li><a *ngIf="router.url != '/portfolio'" style="text-decoration: none; cursor:pointer;" routerLink="/blog" routerLinkActive="active">Blog</a></li>
       <li><a *ngIf="router.url != '/portfolio'" style="text-decoration: none; cursor:pointer;" routerLink="/construction" routerLinkActive="active">About</a></li>
-      <li><a *ngIf="router.url != '/portfolio'" style="text-decoration: none; cursor: pointer" routerLink="/construction"  routerLinkActive="active">Contact</a>
+<!--      <li><a *ngIf="router.url != '/portfolio'" style="text-decoration: none; cursor: pointer" routerLink="/construction"  routerLinkActive="active">Contact</a>-->
       <li><a *ngIf="router.url == '/portfolio'" routerLink="/home" style="text-decoration: none; cursor: pointer" class="back" routerLinkActive="active">Back</a>
       </li>
     </ul>

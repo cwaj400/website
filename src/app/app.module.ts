@@ -13,6 +13,7 @@ import { SocialButtonsComponent } from './social-buttons/social-buttons.componen
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ConstructionComponent } from './construction/construction.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     SocialButtonsComponent,
     PageNotFoundComponent,
     ConstructionComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
