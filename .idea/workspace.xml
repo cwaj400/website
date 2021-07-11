@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed3f259f-5340-4a7d-8120-21ef002639a7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_04_2021,_22_28_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_04_2021__22_28__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Buda.ttf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Buda.ttf.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/construction.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills-es5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills-es5.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/polyfills.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/runtime.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/scripts.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vendor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vendor.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/3rdpartylicenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/3rdpartylicenses.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.5720fbf1136bdcc3da40.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/social-buttons/social-buttons.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/social-buttons/social-buttons.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,24 +58,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/app/construction/construction.component.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/webfonts.ffonts.net.htm" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/webfonts.ffonts.net.txt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/app/app-routing.module.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/app/home/home.component.css" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/app/home/home.component.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/index.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/app/banner/banner.component.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/app/banner/banner.component.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/app/portfolio/portfolio.component.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/app/header/header.component.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/app/portfolio/portfolio.component.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/app/header/header.component.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/app/portfolio/portfolio.component.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/app/app-routing.module.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/app/banner/banner.component.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/app/home/home.component.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/app/home/home.component.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/app/construction/construction.component.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/webfonts.ffonts.net.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/app/header/header.component.css" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/webfonts.ffonts.net.htm" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/app/portfolio/portfolio.component.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/app/portfolio/portfolio.component.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/angular.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/app/header/header.component.ts" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -213,6 +197,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -271,10 +257,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Karma.Tests" />
-      <item itemvalue="Protractor.E2E Tests" />
       <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="Karma.Tests" />
       <item itemvalue="npm.Angular CLI Server" />
+      <item itemvalue="Protractor.E2E Tests" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -292,6 +278,7 @@
       <workItem from="1551812916023" duration="58267000" />
       <workItem from="1553627690321" duration="1394000" />
       <workItem from="1619272811210" duration="12348000" />
+      <workItem from="1626017074720" duration="1062000" />
     </task>
     <servers />
   </component>
