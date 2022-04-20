@@ -55,6 +55,17 @@
   text-align: center;
 }
 
+h4 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Buda', serif;
+  font-size: 25px;
+  font-display:auto;
+  color: black;
+  line-height: 70px;
+  text-align: center;
+}
+
 
 .index-banner h1 {
   font-family: Cormorant Garamond;
